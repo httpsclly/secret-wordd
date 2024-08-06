@@ -1,0 +1,32 @@
+.over-text {
+  font-size: 2.5em;
+  color: #2a3a32;
+}
+
+.score-text {
+  font-size: 23px;
+  color: #466153;
+}
+
+h2 span {
+  color: rgb(64, 136, 74);
+}
+
+
+/* emoji */
+
+.💀 {
+  font-size: 48px;
+}
+
+.💀:after {
+  content: attr(data-content);
+}
+
+.💀:hover:after {
+  content: attr(data-hover-content);
+}
+
+.💀:active:after {
+  content: attr(data-active-content);
+}
