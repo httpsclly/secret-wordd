@@ -1,8 +1,23 @@
-# Secret-Word
+<div align="center">
+
+# Secret Word
+### [Link do projeto em deploy](https://secret-word-oxzj51s6f-httpscllys-projects.vercel.app/)
+<br> </br>
+</div>
 O Secret Word é uma aplicação interativa desenvolvida em React, onde os jogadores tentam adivinhar uma palavra gerada aleatoriamente a partir de uma categoria também gerada aleatoriamente. Este jogo desafia o conhecimento e a habilidade dos jogadores em diversas categorias, proporcionando uma experiência divertida e educativa.
 
-Secret Word: https://secret-word-oxzj51s6f-httpscllys-projects.vercel.app/
+### Arquitetura do Projeto:
+- Framework e Linguagem de Programação: Baseado no React.js e utilizando - Typescript, proporcionando uma aplicação robusta e legível com tipagem forte.
+- React: Biblioteca principal utilizada para construção da interface do usuário.
+- Vecel : hospedagem do projeto.
 
+### Arquitetura de Pastas:
+- components: Reúne componentes reutilizáveis em diversas partes do website.
+- data: Reúne a lista de palavras e categorias utilizadas no jogo.
+
+## 🚀 Considerações
+Com a criação da aplicação, aprendi a desenvolver com React, dividindo a aplicação em componentes reutilizáveis e gerenciando o estado com "useState" e "useEffect". Trabalhei com props para passar dados entre componentes e utilizei useCallback para otimizar a performance da aplicação ao evitar a recriação desnecessária de funções. Esses aprendizados foram essenciais para criar uma aplicação funcional e me deram uma base sólida para projetos futuros em React e desenvolvimento front-end.
+<br> </br>
 
 # Getting Started with Create React App
 
